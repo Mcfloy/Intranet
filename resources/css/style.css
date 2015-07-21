@@ -1,0 +1,140 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+@font-face {
+    font-family: 'bebas_book';
+    src: url('fonts/bebasneue_book-webfont.eot');
+    src: url('fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_book-webfont.woff') format('woff'),
+         url('fonts/bebasneue_book-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_regular';
+    src: url('fonts/bebasneue_regular-webfont.eot');
+    src: url('fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: #ecf0f1;
+	height: 100vh;
+	position: relative;
+}
+
+header {
+	background-color: #2980b9;
+	height: 60px;
+	text-align: center;
+}
+
+header > a {
+	margin: 0;
+	padding: 0 10px;
+	height: 60px;
+	vertical-align: top;
+	line-height: 60px;
+	width: auto;
+	float: left;
+	display: block;
+	font-family: 'bebas_regular', sans-serif;
+	font-size: 38px;
+	text-decoration: none;
+	color: #ecf0f1;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+}
+
+header > a img {
+	height: 60px;
+	transition: transform 0.5s ease-out 0s;
+}
+
+header > a:hover img {
+	transform: scale(1.1);
+}
+
+header nav {
+	vertical-align: top;
+	height: 60px;
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	width: 400px;
+	margin: auto;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+
+header nav a {
+	padding: 0 10px;
+	text-decoration: none;
+	color: #ecf0f1;
+	height: 100%;
+	vertical-align: top;
+	background-color: transparent;
+	display: inline-block;
+}
+
+header nav a img {
+	display: block;
+	height: 35px;
+	margin: 0 auto 2px auto;
+	transition: transform 0.3s ease-out 0s;
+}
+
+header nav a:hover img {
+	transform: scale(1.1);
+}
+
+main {
+	margin: auto;
+	display: inline-block;
+	width: 100vw;
+	text-align: center;
+}
+
+main section {
+	max-width: 1000px;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+	font-family: 'bebas_book', sans-serif;
+}
+
+main section article {
+	margin-top: 50px;
+}
+
+main section h1 {
+	margin: 0;
+	font-size: 30px;
+	text-decoration: underline;
+	color: #22313F;
+	font-family: 'bebas_book', sans-serif;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: #222;
+	color: #FFF;
+}
